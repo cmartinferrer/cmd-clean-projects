@@ -22,8 +22,8 @@ A simple and portable Python script to recursively clean up multiple development
 ### 1. Clone or download this repository
 
 ```bash
-git clone https://github.com/your-username/project-cleaner.git
-cd project-cleaner
+git clone https://github.com/cmartinferrer/cmd-clean-projects.git
+cd cmf-project-cleaner
 ```
 
 ### 2. Run the script
@@ -39,7 +39,7 @@ This will look inside each folder in ~/dev and remove all target, .idea, and .gi
 ## 🧪 What it does
 
 For each subdirectory inside your base folder, it scans:
-
+```
 .
 ├── project1/
 │   ├── target/       ✅ deleted
@@ -49,7 +49,7 @@ For each subdirectory inside your base folder, it scans:
 │   └── .idea/        ✅ deleted
 ├── project3/
 │   └── .git/         ✅ deleted
-
+```
 ## ⚠️ Notes
 
 The .git folder will be permanently removed. Make sure you back up anything important before running the script.
